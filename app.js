@@ -18,6 +18,5 @@ async function getQr() {
   const response = await fetch(url);
   qr.style.display = "block";
   img.src = url;
-  console.log(img.getAttribute("src"));
   input.value = "";
 }
